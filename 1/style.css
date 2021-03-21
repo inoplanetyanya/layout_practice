@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+}
+
+.header {
+  height: 60px;
+  padding: 0 16.5%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 44px;
+}
+
+.navigation {
+  height: 100%;
+}
+
+.nav-el {
+  height: 100%;
+  display: inline;
+  background-color: chocolate;
+}

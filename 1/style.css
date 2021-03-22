@@ -1,30 +1,156 @@
 * {
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
+}
+
+@font-face {
+  font-family: "Audiowide";
+  src: url(template/fonts/audiowide-regular-webfont.ttf);
 }
 
 .wrapper {
   max-width: 1440px;
 }
 
+.hero {
+  background: url(img/section1_bg.png) no-repeat scroll center top #000;
+  min-height: 1310px;
+}
+
+/* Header start*/
+
 .header {
+  min-height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-div {
+  /* max-width: 940px; */
+  min-height: 60px;
+  padding: 0 10px;
+}
+
+.a-logo {
+  display: block;
+  float: left;
   height: 60px;
-  padding: 0 16.5%;
-  background-color: gray;
-  display: flex;
-  align-items: center;
 }
 
 .logo {
+  display: block;
+  float: left;
+  height: 60px;
   margin-right: 44px;
 }
 
 .navigation {
-  height: 100%;
+  display: inline-block;
+  list-style: none;
 }
 
-.nav-el {
-  height: 100%;
-  display: inline;
-  background-color: chocolate;
+.nav-item {
+  float: left;
+}
+
+.nav-ref {
+  color: #fff;
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 60px;
+  min-height: 60px;
+  padding: 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Header end*/
+
+.home-body-wrap {
+  border: 1px solid greenyellow;
+  /* margin: 0 0 0 0; */
+  padding: 0 0 0 0;
+}
+
+.soyuz-block {
+  /* display: inline-block; */
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.satellite {
+  margin: 0;
+  display: block;
+  left: 10px;
+  position: absolute;
+  top: 125px;
+  z-index: 3;
+}
+
+.soyuz {
+  color: #fff;
+  display: block;
+  margin-top: 210px;
+  /* float: right; */
+  font-family: Audiowide;
+  font-size: 60px;
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 4;
+}
+
+.spacecraft {
+  color: #fff;
+  display: block;
+  /* float:right; */
+  font-family: Arial;
+  font-size: 43px;
+  font-weight: normal;
+  line-height: 43px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 4;
+}
+
+.read-more {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  /* float: right; */
+  font-family: Arial;
+  font-size: 18px;
+  height: 50px;
+  width: 180px;
+  margin: 0 42%;
+  position: relative;
+  z-index: 4;
+}
+
+.featured-projects-block {
+  /* border: 1px solid greenyellow; */
+  margin: 137px 142px 0px
+}
+
+.featured-projects {
+  color: #a3a3a3;
+  background-color: rgba(0, 0, 0, 0.3);
+  float: left;
+  font-family: Audiowide;
+  font-size: 23px;
+  line-height: 23px;
+  min-height: 27px;
+  padding: 17px 0 10px;
+  /* position: relative; */
+  text-align: center;
+  text-transform: uppercase;
+  width: 940px;
+}
+
+.proj-img {
+  display: inline-block;
+  overflow: hidden;
 }

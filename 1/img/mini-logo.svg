@@ -1,0 +1,23 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ab000a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="61" height="60"/>
+  <g id="rocket">
+    <path id="Rectangle_11_copy" data-name="Rectangle 11 copy" class="cls-2" d="M279,53h3l-1.507,2Z" transform="translate(-250)"/>
+    <path class="cls-2" d="M278,47h5l-2.512,4Z" transform="translate(-250)"/>
+    <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-2" d="M282,35l1,10h5Z" transform="translate(-250)"/>
+    <path class="cls-2" d="M279,35l-1,10h-5Z" transform="translate(-250)"/>
+    <path class="cls-2" d="M280.485,6L284,45h-7Z" transform="translate(-250)"/>
+    <rect class="cls-1" x="30" y="25" width="1" height="4"/>
+  </g>
+</svg>

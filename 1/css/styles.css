@@ -21,7 +21,7 @@
 }
 
 .bg-wrap {
-  background: url(img/bg_wide.jpg) no-repeat scroll center top #000000;
+  background: url(../img/bg_wide.jpg) no-repeat scroll center top #000000;
 }
 
 .header {
@@ -166,6 +166,10 @@
 .featured-projects ul li{
   display: inline-block;
   float: left;
+}
+
+.featured-projects ul li a:hover {
+  opacity: 70%;
 }
 
 .our-mission {

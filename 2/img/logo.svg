@@ -1,0 +1,17 @@
+<svg id="Text" xmlns="http://www.w3.org/2000/svg" width="184" height="33" viewBox="0 0 184 33">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 33.333px;
+        text-anchor: end;
+        fill: #fff;
+        font-family: Montserrat;
+      }
+
+      .cls-2 {
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="Title_" data-name="Title " class="cls-1" x="184.532" y="26.582">#<tspan class="cls-2">pizzeria.</tspan></text>
+</svg>

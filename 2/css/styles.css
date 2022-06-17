@@ -571,7 +571,7 @@ body {
 }
 
 .footer-links ul {
-  min-width: 520px;
+  /* min-width: 520px; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -586,6 +586,6 @@ body {
 .footer-links ul li h1 {
   font-family: "Lato";
   color:#ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 20em;
   font-size: 25px;
 }
